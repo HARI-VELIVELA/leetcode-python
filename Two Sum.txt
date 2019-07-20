@@ -1,0 +1,11 @@
+arr = [1,2,3,4,8]
+list1 = []
+target = 9
+k=0
+for i in arr:
+    k+=1
+    if target-i in arr[k:]:
+        list1.append(k-1)
+        list1.append(arr[k:].index(target-i)+k)
+print(list1)
+    
