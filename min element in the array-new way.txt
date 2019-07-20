@@ -1,0 +1,7 @@
+arr = [100,9,10,2,3,4,45,54,12,11,17,19,101,91,1,89,0,84,57,-58]
+
+mini = arr[0]
+for i in arr[1:]:
+    if i< mini:
+        mini = i
+print(mini)
