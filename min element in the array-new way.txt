@@ -5,3 +5,5 @@ for i in arr[1:]:
     if i< mini:
         mini = i
 print(mini)
+
+#replace < with > then we can get the maximum element in the array
